@@ -48,3 +48,4 @@ h3{font:800 1.1rem Orbitron;color:var(--t);margin-bottom:6px;letter-spacing:.06e
 .qfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:.85rem;color:var(--dim)}
 .fl{display:flex;gap:20px;align-items:center}.foot .fl a.social{font:800 .78rem Orbitron;letter-spacing:.14em}
 @media(max-width:560px){.qfoot .btn.sm{display:inline-flex}}
+.btn.big{padding:17px 34px;font-size:.92rem}
