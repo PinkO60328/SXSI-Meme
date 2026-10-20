@@ -1,6 +1,6 @@
 (function(){
 const ok=/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(CA);
-const buy=ok?'https://jup.ag/swap/SOL-'+CA:'https://jup.ag';
+const buy=ok?'https://app.uniswap.org/swap?chain=solana&inputCurrency=NATIVE&outputCurrency='+CA:'https://app.uniswap.org/swap';
 document.querySelectorAll('.ca-val').forEach(e=>e.textContent=CA);
 document.querySelectorAll('.xlink').forEach(a=>a.href=X_LINK);
 document.querySelectorAll('.social').forEach(a=>a.href=SOCIAL_LINK);
